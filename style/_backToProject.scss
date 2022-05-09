@@ -1,0 +1,734 @@
+.container{
+    .box{
+        .project-container{
+            width: 100%;
+            position: relative;
+            display: none;
+            .inner-project-container{
+                padding: 2rem 1.5rem;
+                position: absolute;
+                z-index: 99;
+                top: -430px;
+                width: 100%;
+                background-color: white;
+                box-shadow: 0px 10px 700px rgb(0, 0, 0);
+                border-radius: 0.5rem;
+                .inner-project-container-text{
+                    .head{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 2rem;
+                        h1{
+                            font-size: 20px;
+                        }
+                        
+                    }
+                    .btp-lorem{
+                        font-size: 14px;
+                        color: rgb(105, 105, 105);
+                        font-weight: 400;
+                        line-height: 1.5rem;
+                    }
+
+                    .project-box{
+                        margin-top: 2rem;
+                        padding-top: 2rem;
+                        border: 1px solid rgb(215, 215, 215);
+                        border-radius: 0.5rem;
+                        .project-box-head{
+                            padding: 0rem 1rem;
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            margin-bottom: 2rem ;
+                            .circle-tik{
+                                width: 30px;
+                                height: 30px;
+                                border: 1px solid rgb(171, 171, 171);
+                                border-radius: 50%;
+                                margin-right: 1rem;
+                            }
+                            .active{
+                                background-color: $Moderatecyan;
+                            }
+                            .text{
+                                h3{
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: $Moderatecyan;
+                                padding-top: 0.5rem;
+                                }
+                                h1{
+                                    font-size: 16px;
+                                }
+                                .inner-left{
+                                    display: none;
+                                }
+                            }
+                            h1{
+                                font-size: 16px;
+                            }
+                           
+                        }
+                        .project-box-body{
+                            padding: 0rem 1rem;
+                            font-size: 15px;
+                            color: rgb(105, 105, 105);
+                            font-weight: 400;
+                            line-height: 1.5rem;
+                        }
+                        .project-box-footer{
+                            padding: 2rem 1rem;
+                            color: rgb(163, 163, 163);
+                            display: flex;
+                            align-items: center;
+                            span{
+                                font-size: 28px;
+                                font-weight: 600;
+                                color: black;
+                                padding-right: 0.5rem;
+                            }
+                        }
+                        hr{
+                            width: 100%;
+                            border: 0.5px solid rgb(215, 215, 215);
+                            display: none;
+                        }
+                        
+                    }
+                    .project-box2{
+                        margin-top: 2rem;
+                        padding-top: 2rem;
+                        border: 1px solid rgb(215, 215, 215);
+                        border-radius: 0.5rem;
+                        .project-box-head{
+                            padding: 0rem 1rem;
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            margin-bottom: 2rem ;
+                            .circle-tik2{
+                                width: 30px;
+                                height: 30px;
+                                border: 1px solid rgb(171, 171, 171);
+                                border-radius: 50%;
+                                margin-right: 1rem;
+                            }
+                            .active{
+                                background-color: $Moderatecyan;
+                            }
+                            .text{
+                                h3{
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: $Moderatecyan;
+                                padding-top: 0.5rem;
+                                }
+                                h1{
+                                    font-size: 16px;
+                                }
+                                
+                                .inner-left{
+                                    display: none;
+                                }
+                            }
+                            h1{
+                                font-size: 16px;
+                            }
+                           
+                        }
+                        .project-box-body{
+                            padding: 0rem 1rem;
+                            font-size: 15px;
+                            color: rgb(105, 105, 105);
+                            font-weight: 400;
+                            line-height: 1.5rem;
+                        }
+                        .project-box-footer{
+                            padding: 2rem 1rem;
+                            color: rgb(163, 163, 163);
+                            display: flex;
+                            align-items: center;
+                            span{
+                                font-size: 28px;
+                                font-weight: 600;
+                                color: black;
+                                padding-right: 0.5rem;
+                            }
+                        }
+                        hr .enter-line2{
+                            width: 100%;
+                            border: 0.5px solid rgb(215, 215, 215);
+                            display: none;
+                        }
+                        .enter1{
+                            padding-top: 2rem ;
+                            text-align: center;
+                            display: none;
+                            
+                            h2{
+                                font-size: 16px;
+                                color: rgb(163, 163, 163);
+                                font-weight: 400;
+                            }
+                            .donate{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                padding: 2rem 0rem;
+                                input{
+                                    width: 100px;
+                                    border: 0.5px solid rgb(215, 215, 215);
+                                    padding: 1rem;
+                                    font-size: 20px;
+                                    border-radius: 2rem;
+                                    color: black;
+                                    font-weight: 500;
+                                }
+                                .continue{
+                                    padding: 1rem;
+                                    font-size: 16px;
+                                    background-color: $Moderatecyan;
+                                    color: white;
+                                    border-radius: 2rem;
+                                    font-weight: 500;
+                                    cursor: pointer;
+                                }
+                                .continue:hover{
+                                    background-color: hsl(176, 72%, 28%);
+                                }
+                            }
+                        }
+                        .show1{
+                            display: block;
+                        }
+                    }
+                    .project-box3{
+                        margin-top: 2rem;
+                        padding-top: 2rem;
+                        border: 1px solid rgb(215, 215, 215);
+                        border-radius: 0.5rem;
+                        .project-box-head{
+                            padding: 0rem 1rem;
+                            display: flex;
+                            justify-content: start;
+                            align-items: center;
+                            margin-bottom: 2rem ;
+                            .circle-tik3{
+                                width: 30px;
+                                height: 30px;
+                                border: 1px solid rgb(171, 171, 171);
+                                border-radius: 50%;
+                                margin-right: 1rem;
+                            }
+                            .active{
+                                background-color: $Moderatecyan;
+                            }
+                            .text{
+                                h3{
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: $Moderatecyan;
+                                padding-top: 0.5rem;
+                                }
+                                h1{
+                                    font-size: 16px;
+                                }
+                                .inner-left{
+                                    display: none;
+                                }
+                            }
+                            h1{
+                                font-size: 16px;
+                            }
+                           
+                        }
+                        .project-box-body{
+                            padding: 0rem 1rem;
+                            font-size: 15px;
+                            color: rgb(105, 105, 105);
+                            font-weight: 400;
+                            line-height: 1.5rem;
+                        }
+                        .project-box-footer{
+                            padding: 2rem 1rem;
+                            color: rgb(163, 163, 163);
+                            display: flex;
+                            align-items: center;
+                            span{
+                                font-size: 28px;
+                                font-weight: 600;
+                                color: black;
+                                padding-right: 0.5rem;
+                            }
+                        }
+                        hr{
+                            width: 100%;
+                            border: 0.5px solid rgb(215, 215, 215);
+                            display: none;
+                        }
+                        
+                        .show{
+                            display: block;
+                        }
+                        
+                        .enter2{
+                            padding-top: 2rem ;
+                            text-align: center;
+                            display: none;
+                            
+                            h2{
+                                font-size: 16px;
+                                color: rgb(163, 163, 163);
+                                font-weight: 400;
+                            }
+                            .donate{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                padding: 2rem 0rem;
+                                input{
+                                    width: 100px;
+                                    border: 0.5px solid rgb(215, 215, 215);
+                                    padding: 1rem;
+                                    font-size: 20px;
+                                    border-radius: 2rem;
+                                    color: black;
+                                    font-weight: 500;
+                                }
+                                .continue{
+                                    padding: 1rem;
+                                    font-size: 16px;
+                                    background-color: $Moderatecyan;
+                                    color: white;
+                                    border-radius: 2rem;
+                                    font-weight: 500;
+                                    cursor: pointer;
+                                }
+                                .continue:hover{
+                                    background-color: hsl(176, 72%, 28%);
+                                }
+                            }
+                            
+                        }
+                        .show{
+                            display: block;
+                        }
+                        
+                    }
+                    .select{
+                        border: 2px solid $Moderatecyan;
+                    }
+                    
+                    
+                    .out{
+                        opacity: 0.4;
+                    }
+                }
+
+                
+            }
+        
+        }
+        .active{
+            display: block;
+        }
+    }
+}
+@media screen and (min-width: 1000px) {
+    main{
+        width: 100vw;
+        background-image: url(/images/image-hero-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+    .container{
+        .box{
+            .project-container{
+                max-width: 800px;
+                position: relative;
+                .inner-project-container{
+                    padding: 3rem 3rem;
+                    position: absolute;
+                    z-index: 99;
+                    top: -430px;
+                    width: 100%;
+                    background-color: white;
+                    box-shadow: 0px 10px 700px rgb(0, 0, 0);
+                    border-radius: 0.5rem;
+                    .inner-project-container-text{
+                        .head{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-bottom: 2rem;
+                            h1{
+                                font-size: 26px;
+                            }
+                            
+                        }
+                        .btp-lorem{
+                            font-size: 18px;
+                            color: rgb(105, 105, 105);
+                            font-weight: 400;
+                            line-height: 1.5rem;
+                        }
+    
+                        .project-box{
+                            margin-top: 2rem;
+                            padding-top: 2rem;
+                            border: 1px solid rgb(215, 215, 215);
+                            border-radius: 0.5rem;
+                            .project-box-head{
+                                padding: 0rem 1rem;
+                                display: flex;
+                                justify-content: start;
+                                align-items: center;
+                                margin-bottom: 2rem ;
+                                .circle-tik{
+                                    width: 30px;
+                                    height: 30px;
+                                    border: 1px solid rgb(171, 171, 171);
+                                    border-radius: 50%;
+                                    margin-right: 1rem;
+                                }
+                                .active{
+                                    background-color: $Moderatecyan;
+                                }
+                                .text{
+                                    width: 90%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    h3{
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    color: $Moderatecyan;
+                                    padding-top: 0rem;
+                                    padding-left: 1rem;
+                                    }
+                                    h1{
+                                        font-size: 16px;
+                                    }
+                                    .inner-text{
+                                        display: flex;
+                                    }
+                                    .inner-left{
+                                        display: block;
+                                        span{
+                                            font-size: 28px;
+                                            font-weight: 600;
+                                            color: black;
+                                            padding-right: 0.5rem;
+                                        }
+                                    }
+                                }
+                                h1{
+                                    font-size: 16px;
+                                }
+                               
+                            }
+                            .project-box-body{
+                                padding: 0rem 1rem;
+                                margin-left: 3rem;
+                                font-size: 18px;
+                                color: rgb(105, 105, 105);
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                                padding-bottom: 1rem;
+                            }
+                            .project-box-footer{
+                                padding: 2rem 1rem;
+                                color: rgb(163, 163, 163);
+                                display: flex;
+                                align-items: center;
+                                display: none;
+                                span{
+                                    font-size: 28px;
+                                    font-weight: 600;
+                                    color: black;
+                                    padding-right: 0.5rem;
+                                    display: none;
+                                }
+                            }
+                            hr{
+                                width: 100%;
+                                border: 0.5px solid rgb(215, 215, 215);
+                                display: none;
+                            }
+                            
+                        }
+                        .project-box2{
+                            margin-top: 2rem;
+                            padding-top: 2rem;
+                            border: 1px solid rgb(215, 215, 215);
+                            border-radius: 0.5rem;
+                            .project-box-head{
+                                padding: 0rem 1rem;
+                                display: flex;
+                                justify-content: start;
+                                align-items: center;
+                                margin-bottom: 2rem ;
+                                .circle-tik2{
+                                    width: 30px;
+                                    height: 30px;
+                                    border: 1px solid rgb(171, 171, 171);
+                                    border-radius: 50%;
+                                    margin-right: 1rem;
+                                }
+                                .active{
+                                    background-color: $Moderatecyan;
+                                }
+                                .text{
+                                    width: 90%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    h3{
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    color: $Moderatecyan;
+                                    padding-top: 0rem;
+                                    padding-left: 1rem;
+                                    }
+                                    h1{
+                                        font-size: 16px;
+                                    }
+                                    .inner-text{
+                                        display: flex;
+                                    }
+                                    .inner-left{
+                                        display: block;
+                                        span{
+                                            font-size: 28px;
+                                            font-weight: 600;
+                                            color: black;
+                                            padding-right: 0.5rem;
+                                        }
+                                    }
+                                }
+                                h1{
+                                    font-size: 16px;
+                                }
+                               
+                            }
+                            .project-box-body{
+                                padding: 0rem 1rem;
+                                padding-bottom: 2rem;
+                                font-size: 15px;
+                                color: rgb(105, 105, 105);
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                            }
+                            .project-box-footer{
+                                display: none;
+                                padding: 2rem 1rem;
+                                color: rgb(163, 163, 163);
+                               
+                                align-items: center;
+                                span{
+                                    display: none;
+                                    font-size: 28px;
+                                    font-weight: 600;
+                                    color: black;
+                                    padding-right: 0.5rem;
+                                }
+                            }
+                            hr .enter-line2{
+                                width: 100%;
+                                border: 0.5px solid rgb(215, 215, 215);
+                                display: none;
+                            }
+                            .enter1{
+                                padding-top: 0rem ;
+                                text-align: center;
+                              
+                                
+                                justify-content: space-around;
+                                align-items: center;
+                                
+                                h2{
+                                    font-size: 16px;
+                                    color: rgb(163, 163, 163);
+                                    font-weight: 400;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                .donate{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                    padding-bottom: 1rem ;
+                                    input{
+                                        width: 100px;
+                                        border: 0.5px solid rgb(215, 215, 215);
+                                        padding: 1rem;
+                                        font-size: 20px;
+                                        border-radius: 2rem;
+                                        color: black;
+                                        font-weight: 500;
+                                        margin-right: 1rem;
+                                    }
+                                    .continue{
+                                        padding: 1rem;
+                                        font-size: 16px;
+                                        background-color: $Moderatecyan;
+                                        color: white;
+                                        border-radius: 2rem;
+                                        font-weight: 500;
+                                        cursor: pointer;
+                                    }
+                                    .continue:hover{
+                                        background-color: hsl(176, 72%, 28%);
+                                    }
+                                }
+                            }
+                            .show1{
+                                display: flex;
+                            }
+                        }
+                        
+                        .show{
+                            display: block;
+                        }
+                        .project-box3{
+                            margin-top: 2rem;
+                            padding-top: 2rem;
+                            border: 1px solid rgb(215, 215, 215);
+                            border-radius: 0.5rem;
+                            .project-box-head{
+                                padding: 0rem 1rem;
+                                display: flex;
+                                justify-content: start;
+                                align-items: center;
+                                margin-bottom: 2rem ;
+                                .circle-tik3{
+                                    width: 30px;
+                                    height: 30px;
+                                    border: 1px solid rgb(171, 171, 171);
+                                    border-radius: 50%;
+                                    margin-right: 1rem;
+                                }
+                                .active{
+                                    background-color: $Moderatecyan;
+                                }
+                                .text{
+                                    width: 90%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    h3{
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    color: $Moderatecyan;
+                                    padding-top: 0rem;
+                                    padding-left: 1rem;
+                                    }
+                                    h1{
+                                        font-size: 16px;
+                                    }
+                                    .inner-text{
+                                        display: flex;
+                                    }
+                                    .inner-left{
+                                        display: block;
+                                        span{
+                                            font-size: 28px;
+                                            font-weight: 600;
+                                            color: black;
+                                            padding-right: 0.5rem;
+                                        }
+                                    }
+                                }
+                                h1{
+                                    font-size: 16px;
+                                }
+                               
+                            }
+                            .project-box-body{
+                                padding: 0rem 1rem;
+                                padding-bottom: 2rem;
+                                font-size: 15px;
+                                color: rgb(105, 105, 105);
+                                font-weight: 400;
+                                line-height: 1.5rem;
+                            }
+                            .project-box-footer{
+                                display: none;
+                                padding: 2rem 1rem;
+                                color: rgb(163, 163, 163);
+                               
+                                align-items: center;
+                                span{
+                                    display: none;
+                                    font-size: 28px;
+                                    font-weight: 600;
+                                    color: black;
+                                    padding-right: 0.5rem;
+                                }
+                            }
+                            hr .enter-line3{
+                                width: 100%;
+                                border: 0.5px solid rgb(215, 215, 215);
+                                display: none;
+                            }
+                            .enter2{
+                                padding-top: 0rem ;
+                                text-align: center;
+                              
+                                
+                                justify-content: space-around;
+                                align-items: center;
+                                
+                                h2{
+                                    font-size: 16px;
+                                    color: rgb(163, 163, 163);
+                                    font-weight: 400;
+                                    display: flex;
+                                    align-items: center;
+                                }
+                                .donate{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-around;
+                                    padding-bottom: 1rem ;
+                                    input{
+                                        width: 100px;
+                                        border: 0.5px solid rgb(215, 215, 215);
+                                        padding: 1rem;
+                                        font-size: 20px;
+                                        border-radius: 2rem;
+                                        color: black;
+                                        font-weight: 500;
+                                        margin-right: 1rem;
+                                    }
+                                    .continue{
+                                        padding: 1rem;
+                                        font-size: 16px;
+                                        background-color: $Moderatecyan;
+                                        color: white;
+                                        border-radius: 2rem;
+                                        font-weight: 500;
+                                        cursor: pointer;
+                                    }
+                                    .continue:hover{
+                                        background-color: hsl(176, 72%, 28%);
+                                    }
+                                }
+                            }
+                            .show1{
+                                display: flex;
+                            }
+                            .show{
+                                display: flex;
+                            }
+                        }
+                        
+                    
+                    }
+            }
+        }
+    }
+}
+}

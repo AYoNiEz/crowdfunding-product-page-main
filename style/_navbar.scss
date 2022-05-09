@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .hamburger{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+}
+.navbar-bg{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+
+    display: none;
+    .head-sub-menu{
+        display: none;
+        .close{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            display: none;
+        }
+        .active{
+            display: block;
+        }
+    }
+    .navbar-wrapper{
+        width: 100%;
+        background-color: white;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        display: none;
+        box-shadow: 0px 0px 500px black;
+        .navbar-item{
+            font-size: 20px;
+            font-weight: 500;
+            padding: 1.5rem;
+            border-bottom: 1px solid rgba(214, 214, 214, 0.527);
+            cursor: pointer;
+        }
+    }
+    .active{
+        display: block;
+    }
+    
+}
+.active{
+    display: block;
+}
+
+

@@ -1,0 +1,226 @@
+@media screen and (min-width: 1000px) {
+    main{
+        width: 100vw;
+        background-image: url(/images/image-hero-desktop.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+    .container{
+        padding: 3rem 10rem;
+        .header{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            .hamburger{
+                display: none;
+            }
+            .hide{
+                display: none;
+            }
+        }
+        .navbar-bg{
+            position: static;
+            width: 100%;
+            z-index: 999;
+        }
+        .navbar{
+            position: static;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            .head-sub-menu{
+                display: none;
+                .close{
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    display: none;
+                }
+                .active{
+                    display: block;
+                }
+            }
+            .navbar-wrapper{
+                color: white;
+                width: 100%;
+                background-color: transparent;
+                border-radius: 0.5rem;
+                margin-top: 0rem;
+                display: flex;
+                box-shadow:none;
+                justify-content: end;
+                .navbar-item{
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding: 0rem 1rem;
+                    border-bottom: none;
+                    cursor: pointer;
+                }
+            }
+            .active{
+                display: block;
+            }
+            
+        }
+        .active{
+            display: block;
+        }
+        .box{
+            margin-top: 14rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 3rem;
+            .box1{
+                max-width: 750px;
+                .text{
+                    span{
+                        display: contents;
+                    }
+                    h1{
+                        padding-top: 2rem;
+                        font-size: 28px;
+                        
+                    }
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $Darkgray;
+                        padding: 1rem 0rem;
+                        line-height: 1.5rem;
+                    }
+                }
+                .button-box1{
+                    width: 90%;
+                    margin-top: 1.5rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: 1.5rem;
+                    .project{
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 700;
+                        background-color: $Moderatecyan;
+                        padding: 1.2rem 2.5rem;
+                        border-radius: 2rem;
+                        cursor: pointer;
+                    }
+                    .bookmark{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color:hsl(0, 0%, 96%);
+                        padding: 1.2rem 2rem 1.2rem 4rem;
+                        border-radius: 2rem;
+                        position: relative;
+                        cursor: pointer;
+                        color: hsl(0, 0%, 48%);
+                        svg{
+                            position: absolute;
+                            left: -10px;
+                            
+                        }
+                        
+                        .bookmark-text{
+                            display: contents;
+                            font-weight: 600;
+                        }
+                    }
+                    .active{
+                        color:$Moderatecyan;
+                        fill:hsl(176, 72%, 28%);
+                    }
+                    .show{
+                        fill: white;
+                    }
+                    
+                    .project:hover{
+                            background-color: hsl(176, 72%, 28%);
+                    }
+                    
+                }
+            }
+            .box2{
+                max-width: 750px;
+                padding: 2rem 3rem;
+                .box2-wrapper{
+                    text-align: left;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    
+                    .box2-sub{
+                        padding-right: 4rem;
+                        margin-right: 4rem;
+                        border-right: 1px solid beige;
+                    }
+                    hr{
+                        display: none;
+                    }
+                }
+
+            }
+            .box3{
+                max-width: 750px;
+                padding: 2rem 3rem;
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $Darkgray;
+                    padding: 2rem auto;
+                    line-height: 1.5rem;
+                }
+                .sub-box{
+                    padding: 2rem;
+                    .box3-text{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .h1-sub-box{
+                            font-size: 18px;
+                        }
+                        h3{
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+                    }
+                    p{
+                        padding: 1rem 0rem;
+                    }
+                    .box3-button{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                }
+                .sub-box-out{
+                    padding: 2rem;
+                    .box3-text{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .h1-sub-box{
+                            font-size: 18px;
+                        }
+                        h3{
+                            font-size: 15px;
+                            font-weight: 400;
+                        }
+                    }
+                    p{
+                        padding: 1rem 0rem;
+                    }
+                    .box3-button{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
